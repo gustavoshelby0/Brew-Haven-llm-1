@@ -2,15 +2,43 @@
 
 # Problema de Negócio
 
-A Amazon é o maior marketplace do mundo, com milhões de produtos em seu catálogo. No entanto, manter um portfólio extenso gera custos significativos de armazenagem, logística e gestão de fornecedores.
+Contexto da empresa
+
+A Brew Haven é uma rede de cafeterias que começou com uma pequena loja em um bairro movimentado da cidade. Com o passar dos anos, a empresa expandiu e hoje possui diversas unidades espalhadas pela cidade.
+
+A rede vende diversos produtos, como:
+
+- cafés tradicionais
+- bebidas geladas
+- chás
+- chocolates
+- produtos de confeitaria
+
+O negócio funciona de forma semelhante a muitas cafeterias modernas:
+
+- grande fluxo de clientes ao longo do dia
+- vendas rápidas no balcão
+- ticket médio relativamente baixo
+- grande volume de transações
+
+## A dúvida da diretoria
+
+Nos últimos meses, os gestores da Brew Haven começaram a perceber que algumas lojas parecem estar **cada vez mais movimentadas**, principalmente em determinados horários do dia.
+
+Diante desse cenário, a Brew Haven decidiu contratar um Analista de Dados para investigar a seguinte questão:
+
+Existe crescimento no faturamento da rede de cafeterias? Se sim, quais são as principais alavancas desse crescimento?
+
+Esse é o **problema de negócio que vamos investigar neste curso**.
+
 
 # Premissas da análise
 
-Dados de 100.000 vendas feitas pela Amazon.
+Dados de aproximadamente 148.969 transações de uma rede de cafeterias com 3 lojas em Nova York (Astoria, Lower Manhattan, Hell's Kitchen).
 
-Vendas realizadas nos Estados Unidos, Canadá, Índia, Reino Unido e Austrália.
+Vendas realizadas no período de Janeiro a Junho de 2023.
 
-Os dados analisados correspondem ao período de 2020 a 2024.
+Cada linha representa um item dentro de um pedido, permitindo análises de mix de produtos, ticket médio e comportamento por horário.
 
 # Estratégia da solução
 
@@ -20,7 +48,7 @@ O método Fato-Dimensão foi usado para desenvolver a análise de dados.
 
 As perguntas abertas são um tipo de demanda muito comum em análise de dados nas quais a demanda possui N possíveis soluções e cabe ao analista de dados avaliar as possibilidades e escolher a alternativa com o maior retorno e o menor esforço possível. Para essa análise, foi definida a seguinte pergunta aberta:
 
-Como estão as vendas da Amazon? A empresa tem muitos produtos bons ou é simplesmente um armazém de brechó?
+Como estão as vendas da rede de cafeterias? O faturamento está crescendo e quais são as principais alavancas por trás desse crescimento?
 
 # Passo 2: Transformar pergunta aberta em fechada
 
@@ -28,11 +56,11 @@ As perguntas fechadas são um tipo de demanda muito comum na área de análise d
 
 Para essa análise, foi definida a seguinte pergunta fechada:
 
-Pergunta Fechada: Faça um gráfico de Pareto mostrando todas as categorias da Amazon. Veja quais categorias pagam as contas da empresa e quais são simplesmente peso morto no estoque.
+Pergunta Fechada: Analise o crescimento mês a mês do faturamento total e identifique se ele é impulsionado por aumento de volume de clientes ou por aumento do ticket médio. Em seguida, desdobre essa análise por loja, por categoria de produto, por tamanho de bebida, por horário do dia e por dia da semana, para identificar quais fatores estão puxando (ou travando) o crescimento da rede.
 
 # Passo 3: Definição da Coluna Fato
 
-O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse caso, a coluna "OrderID" mostra quantas vendas foram feitas, quando, e é feita uma contagem e segmentação por categoria...
+O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse caso, a coluna "transaction_id" mostra quantas vendas (checkouts) foram feitas, quando, e é feita uma contagem (utilizando valores distintos, já que um mesmo transaction_id pode aparecer em várias linhas quando o cliente leva múltiplos produtos) e segmentação por categoria (como loja, mês, dia da semana, tipo de produto e tamanho). O valor associado a esse fato é o Total_Bill do pedido, que deve ser somado por transaction_id para obter o faturamento real de cada venda.
 
 # Passo 4: Identificação das Dimensões
 
