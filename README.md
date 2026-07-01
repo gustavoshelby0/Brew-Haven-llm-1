@@ -54,15 +54,44 @@ As colunas foram agrupadas em dimensões comuns que fornecem mais detalhes sobre
 
 # Passo 5: Hipóteses Analíticas
 
-**H1:** Não existe a Lei de Pareto na Amazon. As categorias vendem de forma relativamente equilibrada.
+H1 – Crescimento vs. Ticket Médio
+O crescimento do faturamento é puxado pelo aumento de clientes (volume), não pelo ticket médio.
+Teste: Comparar a evolução mensal do número de transações versus o ticket médio.
 
-**H2:** Apenas duas categorias não apresentam vendas. As demais vendem de forma uniforme.
+H2 – Concentração do Crescimento
+Apenas uma loja está puxando o crescimento da rede; as demais estão estagnadas ou em queda.
+Teste: Visualizar a trajetória de faturamento e volume de transações de cada loja ao longo dos meses.
 
-**H3:** O faturamento por categoria é baixo na maior parte das categorias, mostrando que as receitas estão distribuídas entre diversos segmentos.
+H3 – Categorias Secundárias
+Categorias não-core (Bakery, Branded/Flavours) estão crescendo mais que o café tradicional.
+Teste: Calcular a participação percentual (%) dessas categorias no faturamento total por mês e verificar se está aumentando.
 
-**H4:** O lucro de muitas categorias é negativo, indicando que os custos de tráfego e aquisição de clientes superam o ganho obtido por venda.
+H4 – Upsell de Tamanho
+Produtos no tamanho "Large" estão ganhando participação de mercado.
+Teste: Filtrar bebidas (Café, Chá, Chocolate) e calcular a participação % do tamanho Large no volume de itens vendidos por mês.
 
-H5: quais marcas tiveram maior participação nas vendas?
+H5 – Itens Premium
+Produtos de alto valor (top 10% de preço) são os principais responsáveis pelo aumento do gasto médio.
+Teste: Comparar o crescimento da receita dos itens mais caros (percentil 90) versus os itens de preço médio/baixo.
+
+H6 – Mudança de Horário de Consumo
+As manhãs estão saturadas; o crescimento real está vindo das tardes/noites.
+Teste: Calcular a variação percentual do faturamento por hora do dia (comparando faixas como 6h–11h vs. 12h–18h) mês a mês.
+
+H7 – Perfil de Dias Úteis vs. Fim de Semana
+O mix de produtos e o crescimento são radicalmente diferentes entre dias úteis e fins de semana.
+Teste: Separar a base em Dia Útil (Seg–Sex) e Fim de Semana (Sáb–Dom) e comparar evolução do faturamento e Top 5 tipos de produto.
+
+H8 – Perfil das Lojas (Corporativa vs. Residencial)
+"Lower Manhattan" (área corporativa) tem maior ticket médio e picos pela manhã; "Astoria" (área residencial) tem vendas mais constantes e fracionadas.
+Teste: Comparar por loja o Ticket Médio, Itens por Transação e distribuição de horários de pico.
+
+H9 – Aderência a Novos Produtos
+A loja com pior performance está atrasada na adoção dos novos best-sellers que estão impulsionando as outras lojas.
+Teste: Identificar os produtos que mais cresceram na rede nos últimos meses e verificar se a loja com queda vendeu esses itens proporcionalmente menos.
+
+
+
 
 Fiz no início apenas 4 Hipóteses para quebrar o gelo. Isso é uma análise exploratória do dataframe com base na pergunta fechada que o Analista de Dados Sr. (Gustavo Shelby) me sugeriu.
 
