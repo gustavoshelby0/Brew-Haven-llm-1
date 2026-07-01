@@ -1,4 +1,4 @@
-# Análise de Vendas da Amazon
+# Análise Exploratoria e Diagnostica da Brew Haven usando LLM
 
 # Problema de Negócio
 
