@@ -78,37 +78,46 @@ Fiz no início apenas 4 Hipóteses para quebrar o gelo. Isso é uma análise exp
 | ID     | Hipótese Analítica                                                                                                       | Mecanismo Acionável                                                                                 | Prioridade |
 
 | **H2** | O crescimento da rede está concentrado em uma única loja, enquanto as demais apresentam baixo crescimento ou estagnação. | 
+
 Intervir nas lojas de baixo desempenho e replicar as boas práticas da unidade com melhor resultado. | 🔴 Alto    |
 
 
 | **H3** | O crescimento das vendas é impulsionado pelas categorias secundárias (Bakery, Branded e Flavours).                       | 
+
 Reforçar exposição dos produtos, criar combos e incentivar vendas adicionais.                       | 🔴 Alto    |
 
 
 | **H4** | O aumento do faturamento está relacionado ao crescimento das vendas do tamanho **Large**.                                | 
+
 Treinar a equipe para realizar upsell de tamanho durante o atendimento.                             | 🔴 Alto    |
 
 
 | **H6** | O crescimento das vendas ocorre principalmente no período da tarde e da noite.                                           | 
+
 Ajustar escalas, estoque e capacidade operacional aos novos horários de maior demanda.              | 🔴 Alto    |
 
 
 | **H7** | Os fins de semana apresentam comportamento de vendas diferente dos dias úteis.                                           | 
+
 Adequar escala, estoque e campanhas para sábado e domingo.                                          | 🔴 Alto    |
 
 
 | **H8** | O perfil da localização da loja (corporativa ou residencial) influencia o desempenho das vendas.                         | 
+
 Adaptar a estratégia operacional às características de cada unidade.                                | 🔴 Alto    |
 
 
 | **H9** | A queda de desempenho de uma loja está associada à baixa adesão aos novos produtos.                                      | 
+
 Reforçar treinamento da equipe e realizar ações de degustação.                                      | 🔴 Alto    |
 
 
 | **H1** | O crescimento da receita é impulsionado pelo aumento do volume de clientes ou pelo aumento do ticket médio.              | 
+
 Definir ações com base no diagnóstico: eficiência operacional ou aumento do ticket médio.           | 🟡 Médio   |
 
 | **H5** | Produtos premium representam a principal alavanca de crescimento do faturamento.                                         | 
+
 Incentivar a venda consultiva e garantir disponibilidade dos produtos premium.                      | 🟡 Médio   |
 
 
