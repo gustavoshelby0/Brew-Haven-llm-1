@@ -65,7 +65,9 @@ O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse 
 # Passo 4: Identificação das Dimensões
 
 Dimensões Analisadas do dataframe da Brew Haven
+
 Dimensão	Variáveis Representativas
+
 Tempo (Data/Hora do Pedido)	transaction_date (Data), transaction_time (Horário), Hour (Hora do dia), Month (Mês numérico), Month Name (Nome do Mês), Day Name (Nome do Dia), Day of Week (Dia da semana em número)
 
 Loja (Onde Foi Vendido)	store_id (ID da loja), store_location (Bairro/Cidade: Astoria, Lower Manhattan, Hell's Kitchen)
@@ -115,8 +117,6 @@ A loja com pior performance está atrasada na adoção dos novos best-sellers qu
 Teste: Identificar os produtos que mais cresceram na rede nos últimos meses e verificar se a loja com queda vendeu esses itens proporcionalmente menos.
 
 
-
-
 Fiz no início apenas 4 Hipóteses para quebrar o gelo. Isso é uma análise exploratória do dataframe com base na pergunta fechada que o Analista de Dados Sr. (Gustavo Shelby) me sugeriu.
 
 **Hipótese Inicial → Rodar Excel/Análise → Obter Insight → Questionar o Insight → Gerar Nova Hipótese → Rodar Nova Análise.**
@@ -136,42 +136,42 @@ Intervir nas lojas de baixo desempenho e replicar as boas práticas da unidade c
 ]
 
 
-| **H3** | O crescimento das vendas é impulsionado pelas categorias secundárias (Bakery, Branded e Flavours).                       | 
+| **H3** | O crescimento das vendas é impulsionado pelas categorias secundárias (Bakery, Branded e Flavours).                        
 
 Reforçar exposição dos produtos, criar combos e incentivar vendas adicionais.                       | 🔴 Alto    |
 ]
 
-| **H4** | O aumento do faturamento está relacionado ao crescimento das vendas do tamanho **Large**.                                | 
+| **H4** | O aumento do faturamento está relacionado ao crescimento das vendas do tamanho **Large**.                                
 
 Treinar a equipe para realizar upsell de tamanho durante o atendimento.                             | 🔴 Alto    |
 ]
 
-| **H6** | O crescimento das vendas ocorre principalmente no período da tarde e da noite.                                           | 
+| **H6** | O crescimento das vendas ocorre principalmente no período da tarde e da noite.                                            
 
 Ajustar escalas, estoque e capacidade operacional aos novos horários de maior demanda.              | 🔴 Alto    |
 ]
 
-| **H7** | Os fins de semana apresentam comportamento de vendas diferente dos dias úteis.                                           | 
+| **H7** | Os fins de semana apresentam comportamento de vendas diferente dos dias úteis.                                            
 
 Adequar escala, estoque e campanhas para sábado e domingo.                                          | 🔴 Alto    |
 ]
 
-| **H8** | O perfil da localização da loja (corporativa ou residencial) influencia o desempenho das vendas.                         | 
+| **H8** | O perfil da localização da loja (corporativa ou residencial) influencia o desempenho das vendas.                          
 
 Adaptar a estratégia operacional às características de cada unidade.                                | 🔴 Alto    |
 ]
 
-| **H9** | A queda de desempenho de uma loja está associada à baixa adesão aos novos produtos.                                      | 
+| **H9** | A queda de desempenho de uma loja está associada à baixa adesão aos novos produtos.                                       
 
 Reforçar treinamento da equipe e realizar ações de degustação.                                      | 🔴 Alto    |
 ]
 
-| **H1** | O crescimento da receita é impulsionado pelo aumento do volume de clientes ou pelo aumento do ticket médio.              | 
+| **H1** | O crescimento da receita é impulsionado pelo aumento do volume de clientes ou pelo aumento do ticket médio.               
 
 Definir ações com base no diagnóstico: eficiência operacional ou aumento do ticket médio.           | 🟡 Médio   |
 ]
 
-| **H5** | Produtos premium representam a principal alavanca de crescimento do faturamento.                                         | 
+| **H5** | Produtos premium representam a principal alavanca de crescimento do faturamento.                                          
 
 Incentivar a venda consultiva e garantir disponibilidade dos produtos premium.                      | 🟡 Médio   |
 ]
