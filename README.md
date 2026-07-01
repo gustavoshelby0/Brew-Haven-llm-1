@@ -36,21 +36,12 @@ O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse 
 
 # Passo 4: Identificação das Dimensões
 
-As colunas foram agrupadas em dimensões comuns que fornecem mais detalhes sobre o Fato que será analisado. Foram organizadas as seguintes dimensões:
-
-**Tempo:** OrderDate. (Base cronológica para análises de sazonalidade e tendências).
-
-**Produto e Marca:** ProductID, ProductName, Category, Brand. (Detalhamento do item vendido para análise de portfólio e desempenho por categoria).
-
-**Cliente e Vendedor:** CustomerID, CustomerName, SellerID. (Identificação das partes envolvidas na transação).
-
-**Valores e Custos:** Quantity, UnitPrice, Discount, Tax, ShippingCost, TotalAmount. (Métricas financeiras da venda; TotalAmount é a métrica central de faturamento).
-
-**Pagamento e Status:** PaymentMethod, OrderStatus. (OrderStatus é a variável-alvo para classificação do resultado do pedido).
-
-**Localização:** City, State, Country. (Base geográfica para análises regionais de desempenho).
-
-**Controle:** OrderID. (Identificador único para rastreabilidade do registro).
+Dimensões Analisadas do dataframe da Brew Haven
+Dimensão	Variáveis Representativas
+Tempo (Data/Hora do Pedido)	transaction_date (Data), transaction_time (Horário), Hour (Hora do dia), Month (Mês numérico), Month Name (Nome do Mês), Day Name (Nome do Dia), Day of Week (Dia da semana em número)
+Loja (Onde Foi Vendido)	store_id (ID da loja), store_location (Bairro/Cidade: Astoria, Lower Manhattan, Hell's Kitchen)
+Produto (O que Foi Vendido)	product_id (ID do produto), product_category (Categoria macro), product_type (Subcategoria), product_detail (Descrição detalhada), Size (Tamanho do produto)
+Item do Pedido (Linha da Transação)	transaction_id (Cabeçalho do pedido - agrupa os itens da mesma compra), transaction_qty (Quantidade de itens na linha), unit_price (Preço unitário), Total_Bill (Valor total da linha: qty × price)
 
 # Passo 5: Hipóteses Analíticas
 
