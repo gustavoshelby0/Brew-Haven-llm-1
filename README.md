@@ -67,9 +67,14 @@ O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse 
 Dimensões Analisadas do dataframe da Brew Haven
 Dimensão	Variáveis Representativas
 Tempo (Data/Hora do Pedido)	transaction_date (Data), transaction_time (Horário), Hour (Hora do dia), Month (Mês numérico), Month Name (Nome do Mês), Day Name (Nome do Dia), Day of Week (Dia da semana em número)
+
 Loja (Onde Foi Vendido)	store_id (ID da loja), store_location (Bairro/Cidade: Astoria, Lower Manhattan, Hell's Kitchen)
+
 Produto (O que Foi Vendido)	product_id (ID do produto), product_category (Categoria macro), product_type (Subcategoria), product_detail (Descrição detalhada), Size (Tamanho do produto)
-Item do Pedido (Linha da Transação)	transaction_id (Cabeçalho do pedido - agrupa os itens da mesma compra), transaction_qty (Quantidade de itens na linha), unit_price (Preço unitário), Total_Bill (Valor total da linha: qty × price)
+
+Item do Pedido (Linha da Transação)	transaction_id (Cabeçalho do pedido - agrupa os itens da mesma compra), transaction_qty 
+
+(Quantidade de itens na linha), unit_price (Preço unitário), Total_Bill (Valor total da linha: qty × price)
 
 # Passo 5: Hipóteses Analíticas
 
