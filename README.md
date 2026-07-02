@@ -155,12 +155,6 @@ O valor associado a esse fato é o **`Total_Bill`** do pedido, que deve ser soma
 
 ---
 
-**Observação:** Inicialmente foram feitas apenas 4 hipóteses para quebrar o gelo. Isso é uma análise exploratória do dataframe com base na pergunta fechada que o Analista de Dados Sr. (Gustavo Shelby) me sugeriu.
-
-> **Hipótese Inicial → Rodar Excel/Análise → Obter Insight → Questionar o Insight → Gerar Nova Hipótese → Rodar Nova Análise.**
-
----
-
 ### Passo 6: Critérios de Priorização
 
 - **Critério 1:** Dados disponíveis.
