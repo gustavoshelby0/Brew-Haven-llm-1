@@ -29,7 +29,7 @@ Diante desse cenário, a Brew Haven decidiu contratar um Analista de Dados para 
 
 > **Existe crescimento no faturamento da rede de cafeterias? Se sim, quais são as principais alavancas desse crescimento?**
 
-Esse é o **problema de negócio que vamos investigar neste curso**.
+Esse é o **problema de negócio que vamos investigar**.
 
 ---
 
