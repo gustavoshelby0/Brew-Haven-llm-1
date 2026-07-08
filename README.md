@@ -4,7 +4,7 @@
 
 
 📥 **Baixe a apresentação estilo Power BI em HTML:**
-[Clique aqui para acessar o arquivo](https://drive.google.com/file/d/1gyAR5eKNhJnIeE-GkABINKNGWZG1w6rj/view?usp=sharing)
+[Clique aqui para acessar o arquivo](https://drive.google.com/file/d/1X_FM9t8wzdner5ewDI4Uw7u9bH9OV9-r/view?usp=drivesdk)
 
 📥 **Baixe a apresentação executiva em HTML:**
 [Clique aqui para acessar o arquivo](https://drive.google.com/file/d/13KH2gqPZ6dFZp1iVjQ3P4CLLx5a_NJhN/view?usp=sharing)
@@ -196,8 +196,7 @@ O valor associado a esse fato é o **`Total_Bill`** do pedido, que deve ser soma
 
 
 📥 **Baixe a apresentação estilo Power BI em HTML:**
-[Clique aqui para acessar o arquivo](https://drive.google.com/file/d/1gyAR5eKNhJnIeE-GkABINKNGWZG1w6rj/view?usp=sharing)
-
+[Clique aqui para acessar o arquivo](https://drive.google.com/file/d/1X_FM9t8wzdner5ewDI4Uw7u9bH9OV9-r/view?usp=drivesdk)
 📥 **Baixe a apresentação executiva em HTML:**
 [Clique aqui para acessar o arquivo](https://drive.google.com/file/d/13KH2gqPZ6dFZp1iVjQ3P4CLLx5a_NJhN/view?usp=sharing)
 
